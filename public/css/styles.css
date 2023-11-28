@@ -1,3 +1,23 @@
-
+footer {
+  background-color: rgba(79, 78, 78, 0.9058823529);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #FFEB00;
+  font-size: 1.1rem;
+  padding: 1.1%;
+}
+footer .icon {
+  float: left;
+  margin: 0.9rem;
+}
+footer .icon-youtube {
+  margin-top: 11%;
+}
+footer svg {
+  color: #FFEB00;
+  width: 21px;
+  height: 21px;
+}
 
 /*# sourceMappingURL=styles.css.map */
