@@ -1,5 +1,11 @@
-header {
-  background-color: black;
+footer {
+  background-color: rgba(79, 78, 78, 0.9058823529);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #FFEB00;
+  font-size: 1.1rem;
+  padding: 1.1%;
 }
 
 /*# sourceMappingURL=styles.css.map */
