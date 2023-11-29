@@ -11976,6 +11976,13 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-.visually-hidden {
-  color: var(--bs-yellow);
+p {
+  color: black;
+  font-size: x-large;
+}
+
+img {
+  width: 100%;
+  height: 20%;
+  background-size: cover;
 }/*# sourceMappingURL=styles.css.map */

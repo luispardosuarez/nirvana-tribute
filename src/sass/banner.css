@@ -11976,7 +11976,12 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+p {
+  color: black;
+  font-size: x-large;
+}
+
 img {
-  width: 80%;
-  height: 20%;
+  width: 20%;
+  height: 50%;
 }/*# sourceMappingURL=banner.css.map */
