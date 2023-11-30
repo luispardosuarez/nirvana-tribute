@@ -1,9 +1,15 @@
-footer {
+header {
   background-color: #4f4e4ee7;
   display: flex;
   justify-content: space-between;
   align-items: center;
   color: #FFEB00;
   font-size: 1.1rem;
-  padding: 1.1%;
+  padding: 0.3%;
+
+  img {
+    width: 15vw;
+    height: auto;
+    margin-left: 10%;
+  }
 }
