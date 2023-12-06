@@ -11865,6 +11865,10 @@ img {
   height: 50%;
 }
 
+#one img {
+  width: 20%;
+}
+
 .container-cards {
   padding: 2rem;
   margin: 0 2rem;
@@ -11986,6 +11990,89 @@ img {
 .category-gallery:hover h2, .category-gallery:hover .h2 {
   opacity: 1;
   transform: scale(1);
+}
+
+h1, .h1 {
+  text-align: center;
+  position: relative;
+  width: 80%;
+  margin: 50% auto;
+}
+
+h1::before, .h1::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  position: absolute;
+  background-color: black;
+  top: 50%;
+  z-index: -1;
+  box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 rgb(0, 0, 0);
+}
+
+h1 span, .h1 span {
+  background-color: #ecf4fb;
+  padding: 0 25px;
+}
+
+.img-gallery {
+  width: 80%;
+  margin: 50px auto 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 3fr));
+  gap: 30px;
+}
+
+.img-gallery img {
+  border-radius: 10px;
+  width: 100%;
+  height: 40vh;
+  cursor: pointer;
+  transition: 1s;
+  overflow: hidden;
+  object-fit: cover;
+  border: 1px solid black;
+  box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 rgb(0, 0, 0);
+  transition: all 0.5s ease-in-out 0s;
+}
+
+.img-gallery img:hover {
+  transform: scale(1.1);
+}
+
+.full-img {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.9);
+  position: fixed;
+  top: 0;
+  left: 0;
+  justify-content: center;
+  display: none;
+  align-items: center;
+  z-index: 99;
+}
+
+.full-img span {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  font-size: 30px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.fullImg {
+  width: 100%;
+  height: 100%;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
 }
 
 /*# sourceMappingURL=styles.css.map */

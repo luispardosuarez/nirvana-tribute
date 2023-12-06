@@ -28,6 +28,10 @@
   box-shadow: 0 0 200px black inset;
 }
 
+.category-elements a {
+  text-decoration: none;
+}
+
 .category-elements h2 {
   color: white;
   text-align: center;
@@ -35,6 +39,7 @@
   transform: scale(0);
   transition: all 0.8s ease-in-out 0s;
   font-size: 3.5rem;
+  text-decoration: none;
 }
 
 .category-elements:hover h2 {
@@ -55,6 +60,10 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.category-video a {
+  text-decoration: none;
 }
 
 .category-video:hover {
@@ -88,6 +97,10 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.category-gallery a {
+  text-decoration: none;
 }
 
 .category-gallery:hover {
