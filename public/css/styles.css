@@ -11855,20 +11855,6 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-p {
-  color: black;
-  font-size: x-large;
-}
-
-img {
-  width: 20%;
-  height: 50%;
-}
-
-#one img {
-  width: 20%;
-}
-
 .container-cards {
   padding: 2rem;
   margin: 0 2rem;
@@ -11878,8 +11864,7 @@ img {
   gap: 1.5rem;
   grid-template-areas: "a b c";
 }
-
-.category-elements {
+.container-cards .category-elements {
   grid-area: a;
   background-image: url("../../public/assets/img/Nirvana In Utero.jpg");
   background-repeat: no-repeat;
@@ -11894,16 +11879,13 @@ img {
   justify-content: center;
   opacity: 0.9;
 }
-
-.category-elements:hover {
+.container-cards .category-elements:hover {
   box-shadow: 0 0 200px black inset;
 }
-
-.category-elements a {
+.container-cards .category-elements a {
   text-decoration: none;
 }
-
-.category-elements h2, .category-elements .h2 {
+.container-cards .category-elements h2, .container-cards .category-elements .h2 {
   color: white;
   text-align: center;
   opacity: 0;
@@ -11912,13 +11894,11 @@ img {
   font-size: 3.5rem;
   text-decoration: none;
 }
-
-.category-elements:hover h2, .category-elements:hover .h2 {
+.container-cards .category-elements:hover h2, .container-cards .category-elements:hover .h2 {
   opacity: 1;
   transform: scale(1);
 }
-
-.category-video {
+.container-cards .category-video {
   grid-area: b;
   background-image: url("../../public/assets/img/Nirvana 8.jpg");
   background-repeat: no-repeat;
@@ -11932,16 +11912,13 @@ img {
   align-items: center;
   justify-content: center;
 }
-
-.category-video a {
+.container-cards .category-video a {
   text-decoration: none;
 }
-
-.category-video:hover {
+.container-cards .category-video:hover {
   box-shadow: 0 0 200px black inset;
 }
-
-.category-video h2, .category-video .h2 {
+.container-cards .category-video h2, .container-cards .category-video .h2 {
   color: white;
   text-align: center;
   opacity: 0;
@@ -11949,13 +11926,11 @@ img {
   transition: all 0.8s ease-in-out 0s;
   font-size: 3.5rem;
 }
-
-.category-video:hover h2, .category-video:hover .h2 {
+.container-cards .category-video:hover h2, .container-cards .category-video:hover .h2 {
   opacity: 1;
   transform: scale(1);
 }
-
-.category-gallery {
+.container-cards .category-gallery {
   grid-area: c;
   background-image: url("../../public/assets/img/Nirvana 4.jpg");
   background-repeat: no-repeat;
@@ -11969,16 +11944,13 @@ img {
   align-items: center;
   justify-content: center;
 }
-
-.category-gallery a {
+.container-cards .category-gallery a {
   text-decoration: none;
 }
-
-.category-gallery:hover {
+.container-cards .category-gallery:hover {
   box-shadow: 0 0 200px black inset;
 }
-
-.category-gallery h2, .category-gallery .h2 {
+.container-cards .category-gallery h2, .container-cards .category-gallery .h2 {
   color: white;
   text-align: center;
   opacity: 0;
@@ -11986,86 +11958,9 @@ img {
   transition: all 0.8s ease-in-out 0s;
   font-size: 3.5rem;
 }
-
-.category-gallery:hover h2, .category-gallery:hover .h2 {
+.container-cards .category-gallery:hover h2, .container-cards .category-gallery:hover .h2 {
   opacity: 1;
   transform: scale(1);
-}
-
-h1, .h1 {
-  text-align: center;
-  position: relative;
-  width: 80%;
-  margin: 50% auto;
-}
-
-h1::before, .h1::before {
-  content: "";
-  display: block;
-  width: 100%;
-  height: 2px;
-  position: absolute;
-  background-color: black;
-  top: 50%;
-  z-index: -1;
-  box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 rgb(0, 0, 0);
-}
-
-h1 span, .h1 span {
-  background-color: #ecf4fb;
-  padding: 0 25px;
-}
-
-.img-gallery {
-  width: 80%;
-  margin: 50px auto 50px;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 3fr));
-  gap: 30px;
-}
-
-.img-gallery img {
-  border-radius: 10px;
-  width: 100%;
-  height: 40vh;
-  cursor: pointer;
-  transition: 1s;
-  overflow: hidden;
-  object-fit: cover;
-  border: 1px solid black;
-  box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 rgb(0, 0, 0);
-  transition: all 0.5s ease-in-out 0s;
-}
-
-.img-gallery img:hover {
-  transform: scale(1.1);
-}
-
-.full-img {
-  width: 100%;
-  height: 100vh;
-  background-color: rgba(0, 0, 0, 0.9);
-  position: fixed;
-  top: 0;
-  left: 0;
-  justify-content: center;
-  display: none;
-  align-items: center;
-  z-index: 99;
-}
-
-.full-img span {
-  position: absolute;
-  top: 5%;
-  right: 5%;
-  font-size: 30px;
-  color: #fff;
-  cursor: pointer;
-}
-
-.fullImg {
-  width: 100%;
-  height: 100%;
 }
 
 * {
