@@ -6,6 +6,9 @@ body .information {
   justify-content: space-evenly;
   padding: 3%;
 }
+body .card {
+  margin-top: 5%;
+}
 body .c-name {
   display: flex;
   flex-direction: row;
