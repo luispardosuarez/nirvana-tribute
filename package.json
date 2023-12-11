@@ -6,7 +6,12 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "sass": "sass ./src/sass/styles.scss ./public/css/styles.css",
-    "sass-w": "sass --watch ./src/sass/styles.scss ./public/css/styles.css"
+    "sass-w": "sass --watch ./src/sass/styles.scss ./public/css/styles.css",
+    "sass-m": "sass --watch ./src/sass/music-styles.scss ./public/css/music-styles.css",
+    "sass-v": "sass --watch ./src/sass/video-styles.scss ./public/css/video-styles.css",
+    "sass-g": "sass --watch ./src/sass/gallery-styles.scss ./public/css/gallery-styles.css",
+    "sass-f": "sass --watch ./src/sass/form-styles.scss ./public/css/form-styles.css",
+    "sass-h": "sass --watch ./src/sass/home-styles.scss ./public/css/home-styles.css"
   },
   "author": "",
   "license": "ISC",
