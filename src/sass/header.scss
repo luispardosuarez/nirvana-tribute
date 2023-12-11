@@ -1,22 +1,17 @@
 header {
-  background-color: #4f4e4ee7;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  color: #FFEB00;
-  font-size: 1.1rem;
-  padding: 0.3%;
 
   .container-fluid {
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-end;
-  }
+  background-color: #4f4e4ee7;
+  flex-direction: column;
+ }
+ 
+ .nav-link {
+  color: #FFEB00;
+  font-size: 1.3rem;
+ }
 
   img {
     width: 15vw;
     height: auto;
-    margin-left: 2rem;
   }
 }
