@@ -8,7 +8,7 @@ body{
   }
 
   .card {
-    margin-top: 5%;
+    margin-bottom: 3%;
   }
 
   .c-name {
@@ -22,6 +22,10 @@ body{
   h1 {
     margin-left: 1%;
     font-weight:bold
+  }
+
+  .pagination {
+    margin-left: 45%;
   }
 
   .card-title {
@@ -56,4 +60,80 @@ body{
         transform: rotate(360deg);
       }
   } 
+
+  form {
+    background-color: #ece9e9;
+    text-align: center;
+    margin-left: 17%;
+    margin-right: 17%;
+    margin-top: 7%;
+    border-radius: 3px;
+    padding: 3%;
+    line-height: 29px;
+    border: 2.3px solid #FFEB00;
+  
+    input {
+        width: 29rem;
+        height: 1.9rem;
+        border-radius: 3px;
+        border: 1.9px solid #FFEB00;
+    }
+  
+    #emailContainer {
+        padding: 0 10px;
+    }
+  }
+  
+  #button {
+    background-color: #ffffff;
+    border-radius: 3px;
+    border: 1.9px solid #FFEB00;
+    width: 7rem;
+    height: 2rem;
+    font-size: 1rem;
+  }
+  
+  label {
+    font-size: 1.2rem;
+  }
+  
+  .daily {
+    color: rgb(34, 33, 33);
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  
+  
+  @media only screen and (min-width: 781px) and (max-width: 910px) {
+    .daily {
+        font-size: 1.1rem;
+    }
+  
+    input {
+        width: 75% !important;
+        height: 1.5rem;
+        background-color: #EBFFD3;
+        border-radius: 10px;
+        border: 1.4px solid black;
+    }
+  }
+  
+  @media only screen and (min-width: 570px) and (max-width:780px) {
+    .daily {
+        font-size: 1rem;
+    }
+    form {
+        line-height: 30px;
+    }
+  }
+  
+  @media only screen and (min-width: 360px) and (max-width:569px) {
+    .daily {
+        font-size: 0.8rem;
+    }
+    form {
+        line-height: 30px;
+    } 
+  }
+  
 }
