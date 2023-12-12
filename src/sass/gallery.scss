@@ -1,197 +1,195 @@
+body {
+
+  .c-name {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+   }
+
+   h1 {
+    margin-left: 1%;
+    font-weight:bold
+   }
 
 
-h1{
-    text-align: center;
-    width: 80%;
-    margin: 50% auto;
-}
-
-
-.img-gallery{
-    
+  .img-gallery{ 
     margin: 50px auto 50px;
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(300px, 3fr));
     gap: 50px;
     margin-left: 10%;
     margin-right: 10%;
-}
+   }
+  
+  .img-gallery img{
+     border-radius: 10px;
+     width: 100%;
+     height: 30vh;
+     cursor: pointer;
+     transition: 1s;
+     float:left;
+     object-fit: cover;
+     overflow: hidden;
+     border: 1px solid #373636;
+     box-shadow: 0 4px 8px 0 #f9ed6c, 0 6px 20px 0 rgba(0,0,0.19);
+     transition: all 0.5s ease-in-out 0s;
+   }
 
-.img-gallery img{
-border-radius: 10px;
-width: 100%;
-height: 30vh;
-cursor: pointer;
-transition: 1s;
-float:left;
-object-fit: cover;
-overflow: hidden;
-border: 1px solid black;
-box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 rgba(0,0,0.19);
-transition: all 0.5s ease-in-out 0s;
+   .img-gallery img:hover{
+     transform: scale(1.1);
+    }
 
+   .full-img{
+     width: 100%;
+     height: 100vh;
+     background-color: #373636;
+     position: fixed;
+     top:0;
+     left: 0;
+     justify-content: center;
+     display: none;
+     align-items: center;
+     z-index: 99;
+    }
 
-}
+    .full-img span{
+      position: absolute;
+      top: 5%;
+      right: 5%;
+      font-size: 30px;
+      color: #fff;
+      cursor: pointer;
+    }
 
-.img-gallery img:hover{
-    transform: scale(1.1);
-}
+    .fullImg{
+      width: 100%;
+      height: 100%;
+    }
 
-.full-img{
-    width: 100%;
-    height: 100vh;
-    background-color: rgba(0,0,0, 0.9);
-    position: fixed;
-    top:0;
-    left: 0;
-    justify-content: center;
-    display: none;
-    align-items: center;
-    z-index: 99;
-}
+    .full-img{
+      width: 100%;
+      height: 100vh;
+      background-color: rgba(0,0,0, 0.9);
+      position: fixed;
+      top:0;
+      left: 0;
+      justify-content: center;
+      display: none;
+      align-items: center;
+      z-index: 99;
+    }
 
-.full-img span{
-position: absolute;
-top: 5%;
-right: 5%;
-font-size: 30px;
-color: #fff;
-cursor: pointer;
+    .full-img span{
+      position: absolute;
+      top: 5%;
+      right: 5%;
+      font-size: 30px;
+      color: #fff;
+      cursor: pointer;
+    }
 
-}
+    .fullImg{
+      width: 100%;
+      height: 100%;
+    }
 
-.fullImg{
-    width: 100%;
-    height: 100%;
+    #logo {
+      border-radius: 50%;
+      animation: girar 15s linear infinite;
+    }
 
-}
+    .img-r  {
+      width: 7rem;
+    }
 
-.full-img{
-    width: 100%;
-    height: 100vh;
-    background-color: rgba(0,0,0, 0.9);
-    position: fixed;
-    top:0;
-    left: 0;
-    justify-content: center;
-    display: none;
-    align-items: center;
-    z-index: 99;
-}
+    #logo:hover {
+      border-radius: 50%;
+      box-shadow: 0px 0px 3px 3px  #b2aeae;
+    }
 
-.full-img span{
-position: absolute;
-top: 5%;
-right: 5%;
-font-size: 30px;
-color: #fff;
-cursor: pointer;
-
-}
-
-.fullImg{
-    width: 100%;
-    height: 100%;
-
-}
-
-#logo {
-    border-radius: 50%;
-    animation: girar 15s linear infinite;
-  }
-
-  .img-r  {
-    width: 7rem;
-  }
-
-  #logo:hover {
-    border-radius: 50%;
-    box-shadow: 0px 0px 3px 3px  #b2aeae;
-  }
-
-  @keyframes girar {
+    @keyframes girar {
       0% {
-        transform: rotate(0deg);
-      }
+         transform: rotate(0deg);
+        }
 
       100% {
-        transform: rotate(360deg);
-      }
-  } 
+         transform: rotate(360deg);
+        }
+    } 
 
-  form {
-    background-color: #ece9e9;
-    text-align: center;
-    margin-left: 17%;
-    margin-right: 17%;
-    margin-top: 7%;
-    border-radius: 3px;
-    padding: 3%;
-    line-height: 29px;
-    border: 2.3px solid #FFEB00;
-  
+    form {
+      background-color: #ece9e9;
+      text-align: center;
+      margin-left: 17%;
+      margin-right: 17%;
+      margin-top: 7%;
+      border-radius: 3px;
+      padding: 3%;
+      line-height: 29px;
+      border: 2.3px solid #FFEB00;
+    }
+
     input {
-        width: 29rem;
-        height: 1.9rem;
-        border-radius: 3px;
-        border: 1.9px solid #FFEB00;
+      width: 29rem;
+      height: 1.9rem;
+      border-radius: 3px;
+      border: 1.9px solid #FFEB00;
     }
   
     #emailContainer {
-        padding: 0 10px;
+       padding: 0 10px;
     }
-  }
-  
-  #button {
-    background-color: #ffffff;
-    border-radius: 3px;
-    border: 1.9px solid #FFEB00;
-    width: 7rem;
-    height: 2rem;
-    font-size: 1rem;
-  }
-  
-  label {
-    font-size: 1.2rem;
-  }
-  
-  .daily {
-    color: rgb(34, 33, 33);
-    font-size: 1.5rem;
-    text-align: center;
-  }
-  
-  
-  @media only screen and (min-width: 781px) and (max-width: 910px) {
-    .daily {
-        font-size: 1.1rem;
-    }
-  
-    input {
-        width: 75% !important;
-        height: 1.5rem;
-        background-color: #EBFFD3;
-        border-radius: 10px;
-        border: 1.4px solid black;
-    }
-  }
-  
-  @media only screen and (min-width: 570px) and (max-width:780px) {
-    .daily {
-        font-size: 1rem;
-    }
-    form {
-        line-height: 30px;
-    }
-  }
-  
-  @media only screen and (min-width: 360px) and (max-width:569px) {
-    .daily {
-        font-size: 0.8rem;
-    }
-    form {
-        line-height: 30px;
-    } 
-  }
-  
 
+    #button {
+      background-color: #ffffff;
+      border-radius: 3px;
+      border: 1.9px solid #FFEB00;
+      width: 7rem;
+      height: 2rem;
+      font-size: 1rem;
+    }
+  
+    label {
+      font-size: 1.2rem;
+    }
+  
+    .daily {
+      color: rgb(34, 33, 33);
+      font-size: 1.5rem;
+      text-align: center;
+    }
+  
+   @media only screen and (min-width: 781px) and (max-width: 910px) {
+     .daily {
+         font-size: 1.1rem;
+        }
+  
+      input {
+         width: 75% !important;
+         height: 1.5rem;
+         background-color: #EBFFD3;
+         border-radius: 10px;
+         border: 1.4px solid black;
+        }
+    }
+  
+    @media only screen and (min-width: 570px) and (max-width:780px) {
+      .daily {
+         font-size: 1rem;
+        }
+      form {
+         line-height: 30px;
+        }
+    }
+  
+    @media only screen and (min-width: 360px) and (max-width:569px) {
+      .daily {
+          font-size: 0.8rem;
+        }
+      form {
+          line-height: 30px;
+        } 
+    }
+}
