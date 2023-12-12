@@ -1,4 +1,26 @@
 @charset "UTF-8";
+form {
+  background-color: rgba(85, 83, 83, 0.877);
+  margin-left: 7%;
+  margin-right: 7%;
+  border-radius: 3px;
+  padding: 2%;
+  line-height: 29px;
+  border: 2.3px solid #FFEB00;
+  color: #FFEB00;
+  font-size: 1.1rem;
+}
+form .btn-close {
+  margin-left: 90%;
+}
+form .btn-f {
+  margin-top: 3%;
+}
+form .daily {
+  text-align: center;
+  color: #FFEB00;
+}
+
 body .information {
   display: flex;
   flex-direction: row;
@@ -112,32 +134,6 @@ body .daily {
   body form {
     line-height: 30px;
   }
-}
-
-form {
-  background-color: rgba(109, 104, 104, 0.675);
-  margin-left: 7%;
-  margin-right: 7%;
-  border-radius: 3px;
-  padding: 2%;
-  line-height: 29px;
-  border: 2.3px solid #FFEB00;
-  color: #FFEB00;
-  font-size: 1.1rem;
-}
-form .btn-close {
-  margin-left: 90%;
-}
-form .btn-end {
-  margin-left: 44%;
-}
-form .btn-f {
-  margin-top: 2%;
-  margin-left: 45%;
-}
-form p {
-  text-align: center;
-  font-size: 1.5rem;
 }
 
 /*!
