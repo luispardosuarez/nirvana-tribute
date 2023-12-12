@@ -1,2 +1,22 @@
 @import '../../node_modules/bootstrap/scss/bootstrap.scss';
 
+<<<<<<< HEAD
+=======
+header {
+
+  .container-fluid {
+  background-color: #4f4e4ee7;
+  flex-direction: column;
+ }
+ 
+ .nav-link {
+  color: #FFEB00;
+  font-size: 1.3rem;
+ }
+
+  img {
+    width: 15vw;
+    height: auto;
+  }
+}
+>>>>>>> header
