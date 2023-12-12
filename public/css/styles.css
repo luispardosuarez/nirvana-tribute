@@ -27,6 +27,7 @@ body .information {
   flex-wrap: wrap;
   justify-content: space-evenly;
   padding: 3%;
+  margin-top: 2%;
 }
 body .card {
   margin-bottom: 3%;
@@ -37,6 +38,7 @@ body .c-name {
   align-items: center;
   justify-content: center;
   padding: 2%;
+  margin-top: 3%;
 }
 body h1, body .h1 {
   margin-left: 1%;
