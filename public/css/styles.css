@@ -1,66 +1,4 @@
 @charset "UTF-8";
-form {
-  background-color: rgba(109, 104, 104, 0.849);
-  margin-left: 7%;
-  margin-right: 7%;
-  border-radius: 3px;
-  padding: 2%;
-  line-height: 29px;
-  border: 2.3px solid #FFEB00;
-  color: #FFEB00;
-  font-size: 1.1rem;
-  margin-top: -16%;
-  margin-bottom: 7.5%;
-}
-form .btn-close {
-  margin-left: 90%;
-}
-form .btn-end {
-  margin-left: 44%;
-}
-form .btn-f {
-  margin-top: 2%;
-  margin-left: 45%;
-}
-form p {
-  text-align: center;
-  font-size: 1.5rem;
-}
-
-@media screen and (max-width: 1024px) {
-  form {
-    margin-left: 5%;
-    margin-right: 5%;
-    font-size: 1rem;
-  }
-  .btn-close {
-    margin-left: 85%;
-  }
-  .btn-end {
-    margin-left: 40%;
-  }
-  .btn-f {
-    margin-left: 42%;
-  }
-  p {
-    font-size: 1.3rem;
-  }
-}
-@media screen and (max-width: 767px) {
-  form {
-    margin-left: 3%;
-    margin-right: 3%;
-    font-size: 0.9rem;
-  }
-  .btn-close,
-  .btn-end,
-  .btn-f {
-    margin-left: 50%;
-  }
-  p {
-    font-size: 1.2rem;
-  }
-}
 body .information {
   display: flex;
   flex-direction: row;
@@ -176,6 +114,68 @@ body .daily {
   }
 }
 
+form {
+  background-color: rgba(109, 104, 104, 0.849);
+  margin-left: 7%;
+  margin-right: 7%;
+  border-radius: 3px;
+  padding: 2%;
+  line-height: 29px;
+  border: 2.3px solid #FFEB00;
+  color: #FFEB00;
+  font-size: 1.1rem;
+  margin-top: -16%;
+  margin-bottom: 7.5%;
+}
+form .btn-close {
+  margin-left: 90%;
+}
+form .btn-end {
+  margin-left: 44%;
+}
+form .btn-f {
+  margin-top: 2%;
+  margin-left: 45%;
+}
+form p {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+@media screen and (max-width: 1024px) {
+  form {
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 1rem;
+  }
+  .btn-close {
+    margin-left: 85%;
+  }
+  .btn-end {
+    margin-left: 40%;
+  }
+  .btn-f {
+    margin-left: 42%;
+  }
+  p {
+    font-size: 1.3rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  form {
+    margin-left: 3%;
+    margin-right: 3%;
+    font-size: 0.9rem;
+  }
+  .btn-close,
+  .btn-end,
+  .btn-f {
+    margin-left: 50%;
+  }
+  p {
+    font-size: 1.2rem;
+  }
+}
 /*!
  * Bootstrap  v5.3.2 (https://getbootstrap.com/)
  * Copyright 2011-2023 The Bootstrap Authors
@@ -662,7 +662,7 @@ button,
 [type=button],
 [type=reset],
 [type=submit] {
-  --webkit-appearance: button;
+  -webkit-appearance: button;
 }
 button:not(:disabled),
 [type=button]:not(:disabled),
@@ -719,7 +719,7 @@ legend + * {
 }
 
 [type=search] {
-  --webkit-appearance: textfield;
+  -webkit-appearance: textfield;
   outline-offset: -2px;
 }
 
@@ -741,7 +741,7 @@ legend + * {
 
 ::file-selector-button {
   font: inherit;
-  --webkit-appearance: button;
+  -webkit-appearance: button;
 }
 
 output {
