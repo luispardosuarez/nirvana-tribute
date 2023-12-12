@@ -157,6 +157,31 @@ header {
   
 }
 
+footer {
+    background-color: hsla(0, 1%, 31%, 0.906);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #FFEB00;
+    font-size: 1.1rem;
+    padding: 1%;
+  
+    .icon {
+      float: left;
+      margin: 0.9rem;
+    }
+  
+    .icon-youtube {
+      margin-top: 11%;
+    }
+  
+    svg {
+      color: #FFEB00;
+      width: 21px;
+      height: 21px;
+    }
+}
+
 
 @media screen and (max-width: 1024px) {
     header .container-fluid {
@@ -179,10 +204,10 @@ header {
       grid-template-columns: repeat(2, 1fr); 
       gap: 3rem; 
     }
-  }
+}
   
  
-  @media screen and (max-width: 767px) {
+@media screen and (max-width: 767px) {
     header img {
       width: 60%; 
     }
@@ -201,5 +226,6 @@ header {
     .category-gallery {
       margin-bottom: 5%; 
     }
-  }
+}
+
 
