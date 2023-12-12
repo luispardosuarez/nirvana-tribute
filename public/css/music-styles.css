@@ -1,0 +1,116 @@
+body .information {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 3%;
+}
+body .card {
+  margin-bottom: 3%;
+}
+body .c-name {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 2%;
+}
+body h1 {
+  margin-left: 1%;
+  font-weight: bold;
+}
+body .pagination {
+  margin-left: 45%;
+}
+body .card-title {
+  color: #FFEB00;
+}
+body .card-img-top {
+  width: auto;
+  height: 400px;
+}
+body #logo {
+  border-radius: 50%;
+  animation: girar 15s linear infinite;
+}
+body img {
+  width: 7rem;
+}
+body #logo:hover {
+  border-radius: 50%;
+  box-shadow: 0px 0px 3px 3px #b2aeae;
+}
+@keyframes girar {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+body form {
+  background-color: #ece9e9;
+  text-align: center;
+  margin-left: 17%;
+  margin-right: 17%;
+  margin-top: 7%;
+  border-radius: 3px;
+  padding: 3%;
+  line-height: 29px;
+  border: 2.3px solid #FFEB00;
+}
+body form input {
+  width: 29rem;
+  height: 1.9rem;
+  border-radius: 3px;
+  border: 1.9px solid #FFEB00;
+}
+body form #emailContainer {
+  padding: 0 10px;
+}
+body #button {
+  background-color: #ffffff;
+  border-radius: 3px;
+  border: 1.9px solid #FFEB00;
+  width: 7rem;
+  height: 2rem;
+  font-size: 1rem;
+}
+body label {
+  font-size: 1.2rem;
+}
+body .daily {
+  color: rgb(34, 33, 33);
+  font-size: 1.5rem;
+  text-align: center;
+}
+@media only screen and (min-width: 781px) and (max-width: 910px) {
+  body .daily {
+    font-size: 1.1rem;
+  }
+  body input {
+    width: 75% !important;
+    height: 1.5rem;
+    background-color: #EBFFD3;
+    border-radius: 10px;
+    border: 1.4px solid black;
+  }
+}
+@media only screen and (min-width: 570px) and (max-width: 780px) {
+  body .daily {
+    font-size: 1rem;
+  }
+  body form {
+    line-height: 30px;
+  }
+}
+@media only screen and (min-width: 360px) and (max-width: 569px) {
+  body .daily {
+    font-size: 0.8rem;
+  }
+  body form {
+    line-height: 30px;
+  }
+}
+
+/*# sourceMappingURL=music-styles.css.map */
