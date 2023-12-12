@@ -1,7 +1,3 @@
-<<<<<<< .merge_file_GwjOxt
-
-
-=======
 const fullImgBox = document.getElementById("fullImgBox");
 fullImg = document.getElementById ("fullImg");
 
@@ -23,4 +19,3 @@ function subscribe() {
     emailList = emailList + ", " + emailData;
     localStorage.setItem(emailKey, emailList);
 }
->>>>>>> .merge_file_ot3qWJ
