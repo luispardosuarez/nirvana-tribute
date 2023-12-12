@@ -2,6 +2,7 @@
 @use 'form-styles.scss';
 @use 'music-styles.scss';
 @use 'video-styles.scss';
+@use 'gallery.scss';
 @import '../../node_modules/bootstrap/scss/bootstrap.scss';
 
 
@@ -232,5 +233,6 @@ footer {
       margin-bottom: 5%; 
     }
 }
+
 
 
