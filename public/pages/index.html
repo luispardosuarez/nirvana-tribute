@@ -4,32 +4,103 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="../css/styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <title>Document</title>
 </head>
 <body>
-    <header>
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-              <img class="header-logo" src="../../public/assets/img/logo nirvana.png" alt="logo-nirvana">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-              <div class="navbar-nav">
-                <a class="nav-link " aria-current="page" href="#">Home</a>
-                <a class="nav-link" href="#">Music</a>
-                <a class="nav-link" href="#">Video</a>
-                <a class="nav-link" href="#">Gallery</a>
-                <a class="nav-link" href="#">Mailing List</a>
-              </div>
-            </div>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <img class="header-logo" src="../../public/assets/img/logo nirvana.png" alt="logo-nirvana">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link " aria-current="page" href="#">Home</a>
+            <a class="nav-link" href="#">Music</a>
+            <a class="nav-link" href="#">Video</a>
+            <a class="nav-link" href="#">Gallery</a>
+            <a class="nav-link" href="#">Mailing List</a>
+          </div>
         </div>
-      </nav>
-      
-      
-    </header>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="../../public/assets/img/portada4.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <p>Nirvana, the iconic '90s grunge band, etched an indelible mark in the music history with their
+              groundbreaking sound and profound lyrics</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="../../public/assets/img/Nirvana 8-1.jpg" class="d-block w-100" alt="..." id="one">
+          <div class="carousel-caption d-none d-md-block">
+            <p>Nirvana, the iconic '90s grunge band, etched an indelible mark in the music history with their
+              groundbreaking sound and profound lyrics</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="../../public/assets/img/portada2.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <p>Nirvana, the iconic '90s grunge band, etched an indelible mark in the music history with their
+              groundbreaking sound and profound lyrics</p>
+          </div>
+        </div>
+      </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-    
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <section class="categories">
+
+      <section class="container-cards">
+
+        <div class="category-elements">
+          <a href="">
+            <h2>Music</h2>
+          </a>
+        </div>
+
+        <div class="category-video">
+          <a href="">
+            <h2>Video</h2>
+          </a>
+        </div>
+
+        <div class="category-gallery">
+          <a href="">
+            <h2>Gallery</h2>
+          </a>
+        </div>
+
+      </section>
+    </section>
+
+    <script src="./../../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  </main>
 </body>
+
 </html>

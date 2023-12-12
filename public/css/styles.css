@@ -485,7 +485,7 @@ button,
 [type=button],
 [type=reset],
 [type=submit] {
-  -webkit-appearance: button;
+  --webkit-appearance: button;
 }
 button:not(:disabled),
 [type=button]:not(:disabled),
@@ -542,7 +542,7 @@ legend + * {
 }
 
 [type=search] {
-  -webkit-appearance: textfield;
+  --webkit-appearance: textfield;
   outline-offset: -2px;
 }
 
@@ -564,7 +564,7 @@ legend + * {
 
 ::file-selector-button {
   font: inherit;
-  -webkit-appearance: button;
+  --webkit-appearance: button;
 }
 
 output {
@@ -11866,6 +11866,123 @@ header .nav-link {
 header img {
   width: 15vw;
   height: auto;
+}
+
+#carouselExampleCaptions p {
+  font-size: 2.3rem;
+  color: #fae823;
+  background-color: rgba(40, 38, 38, 0.3333333333);
+}
+#carouselExampleCaptions img {
+  height: 60vh;
+}
+
+.container-cards {
+  padding: 2rem;
+  margin: 0 2rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 250px);
+  gap: 5rem;
+  grid-template-areas: "a b c";
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 5%;
+}
+.container-cards .category-elements {
+  grid-area: a;
+  background-image: url("../../public/assets/img/musichome.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  box-shadow: 0 0 0 2px #929191 inset;
+  transition: all 0.5s ease-in-out 0s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.9;
+}
+.container-cards .category-elements:hover {
+  box-shadow: 0 0 200px #373636 inset;
+}
+.container-cards .category-elements a {
+  text-decoration: none;
+}
+.container-cards .category-elements h2, .container-cards .category-elements .h2 {
+  color: #FFEB00;
+  text-align: center;
+  opacity: 0;
+  transform: scale(0);
+  transition: all 0.8s ease-in-out 0s;
+  font-size: 5rem;
+  text-decoration: none;
+}
+.container-cards .category-elements:hover h2, .container-cards .category-elements:hover .h2 {
+  opacity: 1;
+  transform: scale(1);
+}
+.container-cards .category-video {
+  grid-area: b;
+  background-image: url("../../public/assets/img/Nirvana 8.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  box-shadow: 0 0 0 2px #929191 inset;
+  transition: all 0.5s ease-in-out 0s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.container-cards .category-video a {
+  text-decoration: none;
+}
+.container-cards .category-video:hover {
+  box-shadow: 0 0 200px #373636 inset;
+}
+.container-cards .category-video h2, .container-cards .category-video .h2 {
+  color: #FFEB00;
+  text-align: center;
+  opacity: 0;
+  transform: scale(0);
+  transition: all 0.8s ease-in-out 0s;
+  font-size: 5rem;
+}
+.container-cards .category-video:hover h2, .container-cards .category-video:hover .h2 {
+  opacity: 1;
+  transform: scale(1);
+}
+.container-cards .category-gallery {
+  grid-area: c;
+  background-image: url("../../public/assets/img/Nirvana 4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  box-shadow: 0 0 0 2px #929191 inset;
+  transition: all 0.5s ease-in-out 0s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.container-cards .category-gallery a {
+  text-decoration: none;
+}
+.container-cards .category-gallery:hover {
+  box-shadow: 0 0 200px #373636 inset;
+}
+.container-cards .category-gallery h2, .container-cards .category-gallery .h2 {
+  color: #FFEB00;
+  text-align: center;
+  opacity: 0;
+  transform: scale(0);
+  transition: all 0.8s ease-in-out 0s;
+  font-size: 5rem;
+}
+.container-cards .category-gallery:hover h2, .container-cards .category-gallery:hover .h2 {
+  opacity: 1;
+  transform: scale(1);
 }
 
 /*# sourceMappingURL=styles.css.map */
