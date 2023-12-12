@@ -11855,23 +11855,34 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+#carouselExampleCaptions p {
+  font-size: 2.3rem;
+  color: #fae823;
+  background-color: rgba(40, 38, 38, 0.3333333333);
+}
+#carouselExampleCaptions img {
+  height: 60vh;
+}
+
 .container-cards {
   padding: 2rem;
   margin: 0 2rem;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 250px);
-  gap: 1.5rem;
+  gap: 5rem;
   grid-template-areas: "a b c";
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 5%;
 }
 .container-cards .category-elements {
   grid-area: a;
-  background-image: url("../../public/assets/img/Nirvana In Utero.jpg");
+  background-image: url("../../public/assets/img/musichome.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  border-radius: 2%;
-  box-shadow: 0 0 0 2px black inset;
+  box-shadow: 0 0 0 2px #929191 inset;
   transition: all 0.5s ease-in-out 0s;
   display: flex;
   flex-direction: column;
@@ -11880,18 +11891,18 @@ textarea.form-control-lg {
   opacity: 0.9;
 }
 .container-cards .category-elements:hover {
-  box-shadow: 0 0 200px black inset;
+  box-shadow: 0 0 200px #373636 inset;
 }
 .container-cards .category-elements a {
   text-decoration: none;
 }
 .container-cards .category-elements h2, .container-cards .category-elements .h2 {
-  color: white;
+  color: #FFEB00;
   text-align: center;
   opacity: 0;
   transform: scale(0);
   transition: all 0.8s ease-in-out 0s;
-  font-size: 3.5rem;
+  font-size: 5rem;
   text-decoration: none;
 }
 .container-cards .category-elements:hover h2, .container-cards .category-elements:hover .h2 {
@@ -11904,8 +11915,7 @@ textarea.form-control-lg {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  border-radius: 2%;
-  box-shadow: 0 0 0 2px black inset;
+  box-shadow: 0 0 0 2px #929191 inset;
   transition: all 0.5s ease-in-out 0s;
   display: flex;
   flex-direction: column;
@@ -11916,15 +11926,15 @@ textarea.form-control-lg {
   text-decoration: none;
 }
 .container-cards .category-video:hover {
-  box-shadow: 0 0 200px black inset;
+  box-shadow: 0 0 200px #373636 inset;
 }
 .container-cards .category-video h2, .container-cards .category-video .h2 {
-  color: white;
+  color: #FFEB00;
   text-align: center;
   opacity: 0;
   transform: scale(0);
   transition: all 0.8s ease-in-out 0s;
-  font-size: 3.5rem;
+  font-size: 5rem;
 }
 .container-cards .category-video:hover h2, .container-cards .category-video:hover .h2 {
   opacity: 1;
@@ -11936,8 +11946,7 @@ textarea.form-control-lg {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  border-radius: 2%;
-  box-shadow: 0 0 0 2px black inset;
+  box-shadow: 0 0 0 2px #929191 inset;
   transition: all 0.5s ease-in-out 0s;
   display: flex;
   flex-direction: column;
@@ -11948,26 +11957,19 @@ textarea.form-control-lg {
   text-decoration: none;
 }
 .container-cards .category-gallery:hover {
-  box-shadow: 0 0 200px black inset;
+  box-shadow: 0 0 200px #373636 inset;
 }
 .container-cards .category-gallery h2, .container-cards .category-gallery .h2 {
-  color: white;
+  color: #FFEB00;
   text-align: center;
   opacity: 0;
   transform: scale(0);
   transition: all 0.8s ease-in-out 0s;
-  font-size: 3.5rem;
+  font-size: 5rem;
 }
 .container-cards .category-gallery:hover h2, .container-cards .category-gallery:hover .h2 {
   opacity: 1;
   transform: scale(1);
-}
-
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  font-family: sans-serif;
 }
 
 /*# sourceMappingURL=styles.css.map */
