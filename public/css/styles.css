@@ -115,7 +115,7 @@ body .daily {
 }
 
 form {
-  background-color: rgba(109, 104, 104, 0.849);
+  background-color: rgba(109, 104, 104, 0.675);
   margin-left: 7%;
   margin-right: 7%;
   border-radius: 3px;
@@ -124,8 +124,6 @@ form {
   border: 2.3px solid #FFEB00;
   color: #FFEB00;
   font-size: 1.1rem;
-  margin-top: -16%;
-  margin-bottom: 7.5%;
 }
 form .btn-close {
   margin-left: 90%;
@@ -142,40 +140,6 @@ form p {
   font-size: 1.5rem;
 }
 
-@media screen and (max-width: 1024px) {
-  form {
-    margin-left: 5%;
-    margin-right: 5%;
-    font-size: 1rem;
-  }
-  .btn-close {
-    margin-left: 85%;
-  }
-  .btn-end {
-    margin-left: 40%;
-  }
-  .btn-f {
-    margin-left: 42%;
-  }
-  p {
-    font-size: 1.3rem;
-  }
-}
-@media screen and (max-width: 767px) {
-  form {
-    margin-left: 3%;
-    margin-right: 3%;
-    font-size: 0.9rem;
-  }
-  .btn-close,
-  .btn-end,
-  .btn-f {
-    margin-left: 50%;
-  }
-  p {
-    font-size: 1.2rem;
-  }
-}
 /*!
  * Bootstrap  v5.3.2 (https://getbootstrap.com/)
  * Copyright 2011-2023 The Bootstrap Authors
