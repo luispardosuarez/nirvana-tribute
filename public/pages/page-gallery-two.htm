@@ -23,6 +23,7 @@
     <div id="container-one">
 
         <div class="content">
+            <img id="logo" class="img-r" src="../assets/img/caranirvananegra.png" alt="">
             <h1>GALLERY</h1>
             <div class="img-gallery">
                 <img src="../../public/assets/img/Nirvana 10.jpg" onclick="openFullImg(this.src)"   alt="">
@@ -47,6 +48,13 @@
             <li class="page-item"><a class="page-link" href="../../public/pages/gallery-three.html">3</a></li>
         </ul>
     </nav>
+
+    <form id="form" onsubmit="subscribe()">
+        <p class="daily">Stay in the groove with exclusive updates, behind-the-scenes content, and VIP access to all things Nirvana. Subscribe now and join our inner circle of true fans!</p>
+        <label for="emailContainer">Email:</label>
+        <input id="emailContainer" name="emailContainer" type="email" placeholder=" username@example.com" required>
+        <button id="button" type="submit">Suscribe</button>
+      </form>
 
     <script src="../../src/js/app.js"></script>
 

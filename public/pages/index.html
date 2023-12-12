@@ -14,7 +14,7 @@
 
     
     <div class="full-img" id="fullImgBox">
-        <img src="../../public/assets/img/Nirvana 2.jpg" id="fullImg" alt="">
+        <img class="img-r" src="../../public/assets/img/Nirvana 2.jpg" id="fullImg" alt="">
         <span onclick="closeImg()">X</span>
 
     </div>
@@ -24,6 +24,7 @@
 
         <div class="content">
         <!-- <div container-logo><img src="../../public/assets/img/images.png" alt="" class="logo" > -->
+            <img  class="img-r" id="logo" src="../assets/img/caranirvananegra.png" alt="">
             <h1>GALLERY</h1>
         </div>
             <div class="img-gallery">
@@ -51,7 +52,12 @@
 
     <script src="../../src/js/app.js"></script>
 
-
+    <form id="form" onsubmit="subscribe()">
+        <p class="daily">Stay in the groove with exclusive updates, behind-the-scenes content, and VIP access to all things Nirvana. Subscribe now and join our inner circle of true fans!</p>
+        <label for="emailContainer">Email:</label>
+        <input id="emailContainer" name="emailContainer" type="email" placeholder=" username@example.com" required>
+        <button id="button" type="submit">Suscribe</button>
+      </form>
     
 </body>
 </html>
