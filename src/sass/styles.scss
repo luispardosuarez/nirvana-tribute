@@ -1,6 +1,9 @@
+@use 'form-styles.scss';
 @import '../../node_modules/bootstrap/scss/bootstrap.scss';
 
 header {
+    margin-bottom: -0.5%;
+
   .container-fluid {
      background-color: #4f4e4ee7;
      flex-direction: column;
@@ -48,7 +51,7 @@ header {
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center center;
-      box-shadow: 0 0 0 2px #929191 inset;
+      box-shadow: 0 0 0 3px #ebe27d inset;
       transition: all 0.5s ease-in-out 0s;
       display: flex;
       flex-direction: column;
@@ -86,7 +89,7 @@ header {
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center center;
-      box-shadow: 0 0 0 2px #929191 inset;
+      box-shadow: 0 0 0 3px #ebe27d inset;
       transition: all 0.5s ease-in-out 0s;
       display: flex;
       flex-direction: column;
@@ -122,7 +125,7 @@ header {
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center center;
-      box-shadow: 0 0 0 2px #929191 inset;
+      box-shadow: 0 0 0 3px #ebe27d inset;
       transition: all 0.5s ease-in-out 0s;
       display: flex;
       flex-direction: column;
@@ -153,3 +156,4 @@ header {
     }
   
 }
+

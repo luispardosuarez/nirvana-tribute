@@ -1,0 +1,15 @@
+form #previousform {
+  background-color: rgba(109, 104, 104, 0.675);
+  text-align: center;
+  margin-left: 7%;
+  margin-right: 7%;
+  border-radius: 3px;
+  padding: 2%;
+  line-height: 29px;
+  border: 2.3px solid #FFEB00;
+  color: #FFEB00;
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+/*# sourceMappingURL=form-styles.css.map */
