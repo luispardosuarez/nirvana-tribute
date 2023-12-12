@@ -1,71 +1,21 @@
 form {
-  background-color: rgba(109, 104, 104, 0.675);
-  text-align: center;
-  margin-left: 7%;
-  margin-right: 7%;
-  border-radius: 3px;
-  padding: 3%;
-  line-height: 29px;
-  border: 2.3px solid #FFEB00;
-  color:#FFEB00;
-  font-size: 1.5rem;
-  text-align: center;
+    background-color: rgba(109, 104, 104, 0.675);
 
-  input {
-      width: 29rem;
-      height: 1.9rem;
-      border-radius: 3px;
-      border: 1.9px solid #373636;
-  }
-
-  #emailContainer {
-      padding: 0 10px;
-  }
-
-  #button {
-    background-color: #ffffff;
+    margin-left: 7%;
+    margin-right: 7%;
     border-radius: 3px;
-    border: 1.9px solid #373636;
-    width: 7rem;
-    height: 2rem;
-    font-size: 1rem;
+    padding: 2%;
+    line-height: 29px;
+    border: 2.3px solid #FFEB00;
+    color:#FFEB00;
+    font-size: 1.3rem;
+    text-align: center;
+
+  .btn-close {
+    margin-left: 90%;
   }
 
-  label {
-    font-size: 1.2rem;
+  img {
+    height: 20px;
   }
-
-
-  @media only screen and (min-width: 781px) and (max-width: 910px) {
-    .daily {
-      font-size: 1.1rem;
-    }
-
-    input {
-        width: 75% !important;
-        height: 1.5rem;
-        background-color: #EBFFD3;
-        border-radius: 10px;
-        border: 1.4px solid #373636;
-      }
-  }
-
-  @media only screen and (min-width: 570px) and (max-width:780px) {
-    .daily {
-     font-size: 1rem;
-    }
-    form {
-      line-height: 30px;
-    }
-  }
-
-  @media only screen and (min-width: 360px) and (max-width:569px) {
-    .daily {
-        font-size: 0.8rem;
-    }
-    form {
-        line-height: 30px;
-    } 
-  }  
-
 }
