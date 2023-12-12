@@ -157,3 +157,49 @@ header {
   
 }
 
+
+@media screen and (max-width: 1024px) {
+    header .container-fluid {
+      flex-direction: row; 
+    }
+  
+    .nav-link {
+      font-size: 1.1rem; 
+    }
+  
+    img {
+      width: 12vw; 
+    }
+  
+    #carouselExampleCaptions p {
+      font-size: 1.8rem; 
+    }
+  
+    .container-cards {
+      grid-template-columns: repeat(2, 1fr); 
+      gap: 3rem; 
+    }
+  }
+  
+ 
+  @media screen and (max-width: 767px) {
+    header img {
+      width: 60%; 
+    }
+  
+    #carouselExampleCaptions p {
+      font-size: 1.5rem; 
+    }
+  
+    .container-cards {
+      grid-template-columns: 1fr; 
+      gap: 2rem; 
+    }
+  
+    .category-elements,
+    .category-video,
+    .category-gallery {
+      margin-bottom: 5%; 
+    }
+  }
+

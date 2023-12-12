@@ -26,6 +26,40 @@ form p {
   font-size: 1.5rem;
 }
 
+@media screen and (max-width: 1024px) {
+  form {
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 1rem;
+  }
+  .btn-close {
+    margin-left: 85%;
+  }
+  .btn-end {
+    margin-left: 40%;
+  }
+  .btn-f {
+    margin-left: 42%;
+  }
+  p {
+    font-size: 1.3rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  form {
+    margin-left: 3%;
+    margin-right: 3%;
+    font-size: 0.9rem;
+  }
+  .btn-close,
+  .btn-end,
+  .btn-f {
+    margin-left: 50%;
+  }
+  p {
+    font-size: 1.2rem;
+  }
+}
 /*!
  * Bootstrap  v5.3.2 (https://getbootstrap.com/)
  * Copyright 2011-2023 The Bootstrap Authors
@@ -512,7 +546,7 @@ button,
 [type=button],
 [type=reset],
 [type=submit] {
-  --webkit-appearance: button;
+  -webkit-appearance: button;
 }
 button:not(:disabled),
 [type=button]:not(:disabled),
@@ -569,7 +603,7 @@ legend + * {
 }
 
 [type=search] {
-  --webkit-appearance: textfield;
+  -webkit-appearance: textfield;
   outline-offset: -2px;
 }
 
@@ -591,7 +625,7 @@ legend + * {
 
 ::file-selector-button {
   font: inherit;
-  --webkit-appearance: button;
+  -webkit-appearance: button;
 }
 
 output {
@@ -12013,6 +12047,42 @@ header img {
 .container-cards .category-gallery:hover h2, .container-cards .category-gallery:hover .h2 {
   opacity: 1;
   transform: scale(1);
+}
+
+@media screen and (max-width: 1024px) {
+  header .container-fluid, header .container-sm, header .container-md, header .container-lg, header .container-xl, header .container-xxl {
+    flex-direction: row;
+  }
+  .nav-link {
+    font-size: 1.1rem;
+  }
+  img {
+    width: 12vw;
+  }
+  #carouselExampleCaptions p {
+    font-size: 1.8rem;
+  }
+  .container-cards {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  header img {
+    width: 60%;
+  }
+  #carouselExampleCaptions p {
+    font-size: 1.5rem;
+  }
+  .container-cards {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  .category-elements,
+  .category-video,
+  .category-gallery {
+    margin-bottom: 5%;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

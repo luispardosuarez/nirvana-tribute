@@ -31,3 +31,46 @@ form {
 
  
 }
+
+
+@media screen and (max-width: 1024px) {
+  form {
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 1rem;
+  }
+
+  .btn-close {
+    margin-left: 85%;
+  }
+
+  .btn-end {
+    margin-left: 40%;
+  }
+
+  .btn-f {
+    margin-left: 42%;
+  }
+
+  p {
+    font-size: 1.3rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  form {
+    margin-left: 3%;
+    margin-right: 3%;
+    font-size: 0.9rem;
+  }
+
+  .btn-close,
+  .btn-end,
+  .btn-f {
+    margin-left: 50%;
+  }
+
+  p {
+    font-size: 1.2rem;
+  }
+}
