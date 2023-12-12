@@ -8,14 +8,21 @@ form {
   line-height: 29px;
   border: 2.3px solid #FFEB00;
   color: #FFEB00;
-  font-size: 1.3rem;
-  text-align: center;
+  font-size: 1.1rem;
 }
 form .btn-close {
   margin-left: 90%;
 }
-form img {
-  width: 20px;
+form .btn-end {
+  margin-left: 44%;
+}
+form .btn-f {
+  margin-top: 2%;
+  margin-left: 45%;
+}
+form p {
+  text-align: center;
+  font-size: 1.5rem;
 }
 
 /*!
