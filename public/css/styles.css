@@ -15,7 +15,8 @@ form .btn-close {
   margin-left: 90%;
 }
 form img {
-  height: 20px;
+  width: 20px;
+  height: auto;
 }
 
 /*!
