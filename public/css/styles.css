@@ -15,7 +15,7 @@ form .btn-close {
   margin-left: 96.5%;
 }
 form .btn-f {
-  margin-top: 3%;
+  margin-top: 2%;
   margin-left: 45%;
 }
 form #susctiption {
@@ -28,7 +28,7 @@ form .btn-end {
 form .daily {
   text-align: center;
   color: #FFEB00;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 form .bold {
   font-weight: bold;
@@ -12242,15 +12242,15 @@ header .container-fluid, header .container-sm, header .container-md, header .con
 }
 header .nav-link {
   color: #FFEB00;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
 }
 header img {
-  width: 15vw;
+  width: 19vw;
   height: auto;
 }
 
 #carouselExampleCaptions p {
-  font-size: 2.3rem;
+  font-size: 2rem;
   color: #fae823;
   background-color: rgba(40, 38, 38, 0.3333333333);
 }
