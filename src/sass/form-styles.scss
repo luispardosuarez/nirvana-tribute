@@ -1,5 +1,5 @@
 form {
-  background-color: rgba(85, 83, 83, 0.877);
+  background-color: #4f4e4eb7;
   margin-left: 7%;
   margin-right: 7%;
   border-radius: 3px;
@@ -7,19 +7,36 @@ form {
   line-height: 29px;
   border: 2.3px solid #FFEB00;
   color:#FFEB00;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
+  margin-top: 7%;
  
   .btn-close {
-    margin-left: 90%;
+    margin-left: 96.5%;
   }
 
   .btn-f {
     margin-top: 3%;
+    margin-left: 46%;
+  }
+  
+  #susctiption{
+    text-align: center;
+    font-size: 1.5rem;
+  }
+
+  .btn-end {
+    margin-left: 45%;
   }
 
   .daily {
     text-align: center;
     color:#FFEB00;
+    font-size: 1.5rem;
   }
+
+   .bold {
+    font-weight: bold;
+    font-size: 2rem;
+   }
 }
 

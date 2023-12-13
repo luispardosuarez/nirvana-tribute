@@ -1,6 +1,6 @@
 @charset "UTF-8";
 form {
-  background-color: rgba(85, 83, 83, 0.877);
+  background-color: rgba(79, 78, 78, 0.7176470588);
   margin-left: 7%;
   margin-right: 7%;
   border-radius: 3px;
@@ -8,20 +8,34 @@ form {
   line-height: 29px;
   border: 2.3px solid #FFEB00;
   color: #FFEB00;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
+  margin-top: 7%;
 }
 form .btn-close {
-  margin-left: 90%;
+  margin-left: 96.5%;
 }
 form .btn-f {
   margin-top: 3%;
+  margin-left: 46%;
+}
+form #susctiption {
+  text-align: center;
+  font-size: 1.5rem;
+}
+form .btn-end {
+  margin-left: 45%;
 }
 form .daily {
   text-align: center;
   color: #FFEB00;
+  font-size: 1.5rem;
+}
+form .bold {
+  font-weight: bold;
+  font-size: 2rem;
 }
 
-body .information {
+#mmusic .information {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -29,10 +43,10 @@ body .information {
   padding: 3%;
   margin-top: 2%;
 }
-body .card {
+#mmusic .card {
   margin-bottom: 3%;
 }
-body .c-name {
+#mmusic .c-name {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -40,28 +54,28 @@ body .c-name {
   padding: 2%;
   margin-top: 3%;
 }
-body h1, body .h1 {
+#mmusic h1, #mmusic .h1 {
   margin-left: 1%;
   font-weight: bold;
 }
-body .pagination {
+#mmusic .pagination {
   margin-left: 45%;
 }
-body .card-title {
+#mmusic .card-title {
   color: #FFEB00;
 }
-body .card-img-top {
+#mmusic .card-img-top {
   width: auto;
   height: 400px;
 }
-body #logo {
+#mmusic #logo {
   border-radius: 50%;
   animation: girar 15s linear infinite;
 }
-body img {
+#mmusic img {
   width: 7rem;
 }
-body #logo:hover {
+#mmusic #logo:hover {
   border-radius: 50%;
   box-shadow: 0px 0px 3px 3px #b2aeae;
 }
@@ -73,7 +87,7 @@ body #logo:hover {
     transform: rotate(360deg);
   }
 }
-body form {
+#mmusic form {
   background-color: #ece9e9;
   text-align: center;
   margin-left: 17%;
@@ -84,16 +98,16 @@ body form {
   line-height: 29px;
   border: 2.3px solid #FFEB00;
 }
-body form input {
+#mmusic form input {
   width: 29rem;
   height: 1.9rem;
   border-radius: 3px;
   border: 1.9px solid #FFEB00;
 }
-body form #emailContainer {
+#mmusic form #emailContainer {
   padding: 0 10px;
 }
-body #button {
+#mmusic #button {
   background-color: #ffffff;
   border-radius: 3px;
   border: 1.9px solid #FFEB00;
@@ -101,19 +115,19 @@ body #button {
   height: 2rem;
   font-size: 1rem;
 }
-body label {
+#mmusic label {
   font-size: 1.2rem;
 }
-body .daily {
+#mmusic .daily {
   color: rgb(34, 33, 33);
   font-size: 1.5rem;
   text-align: center;
 }
 @media only screen and (min-width: 781px) and (max-width: 910px) {
-  body .daily {
+  #mmusic .daily {
     font-size: 1.1rem;
   }
-  body input {
+  #mmusic input {
     width: 75% !important;
     height: 1.5rem;
     background-color: #EBFFD3;
@@ -122,23 +136,23 @@ body .daily {
   }
 }
 @media only screen and (min-width: 570px) and (max-width: 780px) {
-  body .daily {
+  #mmusic .daily {
     font-size: 1rem;
   }
-  body form {
+  #mmusic form {
     line-height: 30px;
   }
 }
 @media only screen and (min-width: 360px) and (max-width: 569px) {
-  body .daily {
+  #mmusic .daily {
     font-size: 0.8rem;
   }
-  body form {
+  #mmusic form {
     line-height: 30px;
   }
 }
 
-body .information {
+#mvideo .information {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -146,10 +160,10 @@ body .information {
   padding: 3%;
   margin-top: 2%;
 }
-body .card {
+#mvideo .card {
   margin-bottom: 3%;
 }
-body .c-name {
+#mvideo .c-name {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -157,28 +171,28 @@ body .c-name {
   padding: 2%;
   margin-top: 3%;
 }
-body h1, body .h1 {
+#mvideo h1, #mvideo .h1 {
   margin-left: 1%;
   font-weight: bold;
 }
-body .pagination {
+#mvideo .pagination {
   margin-left: 45%;
 }
-body .card-title {
+#mvideo .card-title {
   color: #FFEB00;
 }
-body .card-img-top {
+#mvideo .card-img-top {
   width: auto;
   height: 400px;
 }
-body #logo {
+#mvideo #logo {
   border-radius: 50%;
   animation: girar 15s linear infinite;
 }
-body img {
+#mvideo img {
   width: 7rem;
 }
-body #logo:hover {
+#mvideo #logo:hover {
   border-radius: 50%;
   box-shadow: 0px 0px 3px 3px #b2aeae;
 }
@@ -190,7 +204,7 @@ body #logo:hover {
     transform: rotate(360deg);
   }
 }
-body form {
+#mvideo form {
   background-color: #ece9e9;
   text-align: center;
   margin-left: 17%;
@@ -201,16 +215,16 @@ body form {
   line-height: 29px;
   border: 2.3px solid #FFEB00;
 }
-body form input {
+#mvideo form input {
   width: 29rem;
   height: 1.9rem;
   border-radius: 3px;
   border: 1.9px solid #FFEB00;
 }
-body form #emailContainer {
+#mvideo form #emailContainer {
   padding: 0 10px;
 }
-body #button {
+#mvideo #button {
   background-color: #ffffff;
   border-radius: 3px;
   border: 1.9px solid #FFEB00;
@@ -218,19 +232,19 @@ body #button {
   height: 2rem;
   font-size: 1rem;
 }
-body label {
+#mvideo label {
   font-size: 1.2rem;
 }
-body .daily {
+#mvideo .daily {
   color: rgb(34, 33, 33);
   font-size: 1.5rem;
   text-align: center;
 }
 @media only screen and (min-width: 781px) and (max-width: 910px) {
-  body .daily {
+  #mvideo .daily {
     font-size: 1.1rem;
   }
-  body input {
+  #mvideo input {
     width: 75% !important;
     height: 1.5rem;
     background-color: #EBFFD3;
@@ -239,34 +253,35 @@ body .daily {
   }
 }
 @media only screen and (min-width: 570px) and (max-width: 780px) {
-  body .daily {
+  #mvideo .daily {
     font-size: 1rem;
   }
-  body form {
+  #mvideo form {
     line-height: 30px;
   }
 }
 @media only screen and (min-width: 360px) and (max-width: 569px) {
-  body .daily {
+  #mvideo .daily {
     font-size: 0.8rem;
   }
-  body form {
+  #mvideo form {
     line-height: 30px;
   }
 }
 
-body .c-name {
+#maing .c-name {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   padding: 2%;
+  margin-top: 3%;
 }
-body h1, body .h1 {
+#maing .c-name h1, #maing .c-name .h1 {
   margin-left: 1%;
   font-weight: bold;
 }
-body .img-gallery {
+#maing .img-gallery {
   margin: 50px auto 50px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 3fr));
@@ -276,7 +291,7 @@ body .img-gallery {
   margin-bottom: 7%;
   margin-top: 5%;
 }
-body .img-gallery img {
+#maing .img-gallery img {
   border-radius: 10px;
   width: 100%;
   height: 30vh;
@@ -289,10 +304,10 @@ body .img-gallery img {
   box-shadow: 0 4px 8px 0 #f9ed6c, 0 6px 20px 0 rgb(0, 0, 0);
   transition: all 0.5s ease-in-out 0s;
 }
-body .img-gallery img:hover {
+#maing .img-gallery img:hover {
   transform: scale(1.1);
 }
-body .full-img {
+#maing .full-img {
   width: 100%;
   height: 100vh;
   background-color: #373636;
@@ -304,7 +319,7 @@ body .full-img {
   align-items: center;
   z-index: 99;
 }
-body .full-img span {
+#maing .full-img span {
   position: absolute;
   top: 5%;
   right: 5%;
@@ -312,11 +327,11 @@ body .full-img span {
   color: #fff;
   cursor: pointer;
 }
-body .fullImg {
+#maing .fullImg {
   width: 100%;
   height: 100%;
 }
-body .full-img {
+#maing .full-img {
   width: 100%;
   height: 100vh;
   background-color: rgba(0, 0, 0, 0.9);
@@ -328,7 +343,7 @@ body .full-img {
   align-items: center;
   z-index: 99;
 }
-body .full-img span {
+#maing .full-img span {
   position: absolute;
   top: 5%;
   right: 5%;
@@ -336,18 +351,18 @@ body .full-img span {
   color: #fff;
   cursor: pointer;
 }
-body .fullImg {
+#maing .fullImg {
   width: 100%;
   height: 100%;
 }
-body #logo {
+#maing #logo {
   border-radius: 50%;
   animation: girar 15s linear infinite;
 }
-body .img-r {
+#maing .img-r {
   width: 7rem;
 }
-body #logo:hover {
+#maing #logo:hover {
   border-radius: 50%;
   box-shadow: 0px 0px 3px 3px #b2aeae;
 }
@@ -359,7 +374,7 @@ body #logo:hover {
     transform: rotate(360deg);
   }
 }
-body form {
+#maing form {
   background-color: #ece9e9;
   text-align: center;
   margin-left: 17%;
@@ -370,16 +385,16 @@ body form {
   line-height: 29px;
   border: 2.3px solid #FFEB00;
 }
-body input {
+#maing input {
   width: 29rem;
   height: 1.9rem;
   border-radius: 3px;
   border: 1.9px solid #FFEB00;
 }
-body #emailContainer {
+#maing #emailContainer {
   padding: 0 10px;
 }
-body #button {
+#maing #button {
   background-color: #ffffff;
   border-radius: 3px;
   border: 1.9px solid #FFEB00;
@@ -387,19 +402,19 @@ body #button {
   height: 2rem;
   font-size: 1rem;
 }
-body label {
+#maing label {
   font-size: 1.2rem;
 }
-body .daily {
+#maing .daily {
   color: rgb(34, 33, 33);
   font-size: 1.5rem;
   text-align: center;
 }
 @media only screen and (min-width: 781px) and (max-width: 910px) {
-  body .daily {
+  #maing .daily {
     font-size: 1.1rem;
   }
-  body input {
+  #maing input {
     width: 75% !important;
     height: 1.5rem;
     background-color: #EBFFD3;
@@ -408,18 +423,18 @@ body .daily {
   }
 }
 @media only screen and (min-width: 570px) and (max-width: 780px) {
-  body .daily {
+  #maing .daily {
     font-size: 1rem;
   }
-  body form {
+  #maing form {
     line-height: 30px;
   }
 }
 @media only screen and (min-width: 360px) and (max-width: 569px) {
-  body .daily {
+  #maing .daily {
     font-size: 0.8rem;
   }
-  body form {
+  #maing form {
     line-height: 30px;
   }
 }
@@ -12316,6 +12331,7 @@ header img {
   margin-left: 5%;
   margin-right: 5%;
   margin-top: 5%;
+  margin-bottom: -23%;
 }
 .container-cards .category-elements {
   grid-area: a;
@@ -12414,13 +12430,14 @@ header img {
 }
 
 footer {
-  background-color: hsla(0, 1%, 31%, 0.906);
+  background-color: rgba(79, 78, 78, 0.9058823529);
   display: flex;
   justify-content: space-between;
   align-items: center;
   color: #FFEB00;
   font-size: 1.1rem;
   padding: 1%;
+  margin-top: 7%;
 }
 footer .icon {
   float: left;
