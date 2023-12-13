@@ -11,15 +11,27 @@ form {
   margin-top: 7%;
 }
 form .btn-close {
-  align-items: center;
+  margin-left: 96.5%;
 }
 form .btn-f {
   margin-top: 3%;
+  margin-left: 46%;
+}
+form #susctiption {
+  text-align: center;
+  font-size: 1.5rem;
+}
+form .btn-end {
+  margin-left: 45%;
 }
 form .daily {
   text-align: center;
   color: #FFEB00;
   font-size: 1.5rem;
+}
+form .bold {
+  font-weight: bold;
+  font-size: 2rem;
 }
 
 /*# sourceMappingURL=form-styles.css.map */

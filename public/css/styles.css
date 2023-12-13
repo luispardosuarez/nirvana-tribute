@@ -1,40 +1,4 @@
 @charset "UTF-8";
-form {
-  background-color: rgba(79, 78, 78, 0.7176470588);
-  margin-left: 7%;
-  margin-right: 7%;
-  border-radius: 3px;
-  padding: 2%;
-  line-height: 29px;
-  border: 2.3px solid #FFEB00;
-  color: #FFEB00;
-  font-size: 1.3rem;
-  margin-top: 7%;
-}
-form .btn-close {
-  margin-left: 96.5%;
-}
-form .btn-f {
-  margin-top: 3%;
-  margin-left: 46%;
-}
-form #susctiption {
-  text-align: center;
-  font-size: 1.5rem;
-}
-form .btn-end {
-  margin-left: 45%;
-}
-form .daily {
-  text-align: center;
-  color: #FFEB00;
-  font-size: 1.5rem;
-}
-form .bold {
-  font-weight: bold;
-  font-size: 2rem;
-}
-
 #mmusic .information {
   display: flex;
   flex-direction: row;
@@ -437,6 +401,41 @@ form .bold {
   #maing form {
     line-height: 30px;
   }
+}
+
+form {
+  background-color: rgba(79, 78, 78, 0.7176470588);
+  margin-left: 7%;
+  margin-right: 7%;
+  border-radius: 3px;
+  padding: 2%;
+  line-height: 29px;
+  border: 2.3px solid #FFEB00;
+  color: #FFEB00;
+  font-size: 1.3rem;
+  margin-top: 7%;
+}
+form .btn-close {
+  margin-left: 96.5%;
+}
+form .btn-f {
+  margin-top: 3%;
+}
+form #susctiption {
+  text-align: center;
+  font-size: 1.5rem;
+}
+form .btn-end {
+  margin-left: 45%;
+}
+form .daily {
+  text-align: center;
+  color: #FFEB00;
+  font-size: 1.5rem;
+}
+form .bold {
+  font-weight: bold;
+  font-size: 2rem;
 }
 
 /*!
