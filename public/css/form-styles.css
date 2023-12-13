@@ -1,5 +1,5 @@
 form {
-  background-color: rgba(194, 35, 35, 0.877);
+  background-color: rgba(85, 83, 83, 0.877);
   margin-left: 7%;
   margin-right: 7%;
   border-radius: 3px;
@@ -8,7 +8,6 @@ form {
   border: 2.3px solid #FFEB00;
   color: #FFEB00;
   font-size: 1.1rem;
-  margin-top: -15%;
 }
 form .btn-close {
   margin-left: 90%;
