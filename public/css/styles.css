@@ -12231,7 +12231,7 @@ textarea.form-control-lg {
   }
 }
 header {
-  margin-bottom: -0.5%;
+  margin-bottom: -0.7%;
 }
 header .container-fluid, header .container-sm, header .container-md, header .container-lg, header .container-xl, header .container-xxl {
   background-color: rgba(79, 78, 78, 0.9058823529);
@@ -12247,7 +12247,7 @@ header img {
 }
 
 #carouselExampleCaptions p {
-  font-size: 2rem;
+  font-size: 1.7rem;
   color: #fae823;
   background-color: rgba(40, 38, 38, 0.3333333333);
 }
@@ -12294,7 +12294,7 @@ header img {
   opacity: 0;
   transform: scale(0);
   transition: all 0.8s ease-in-out 0s;
-  font-size: 5rem;
+  font-size: 3rem;
   text-decoration: none;
 }
 .container-cards .category-elements:hover h2, .container-cards .category-elements:hover .h2 {
@@ -12326,7 +12326,7 @@ header img {
   opacity: 0;
   transform: scale(0);
   transition: all 0.8s ease-in-out 0s;
-  font-size: 5rem;
+  font-size: 3rem;
 }
 .container-cards .category-video:hover h2, .container-cards .category-video:hover .h2 {
   opacity: 1;
@@ -12357,7 +12357,7 @@ header img {
   opacity: 0;
   transform: scale(0);
   transition: all 0.8s ease-in-out 0s;
-  font-size: 5rem;
+  font-size: 3rem;
 }
 .container-cards .category-gallery:hover h2, .container-cards .category-gallery:hover .h2 {
   opacity: 1;
