@@ -265,7 +265,7 @@
   object-fit: cover;
   overflow: hidden;
   border: 1px solid #373636;
-  box-shadow: 0 4px 8px 0 #f9ed6c, 0 6px 20px 0 rgb(0, 0, 0);
+  box-shadow: 0 4px 8px 0 #f9ed6c, 0 6px 20px 0 #373636;
   transition: all 0.5s ease-in-out 0s;
 }
 #maing .img-gallery img:hover {
@@ -322,8 +322,6 @@
 #maing #logo {
   border-radius: 50%;
   animation: girar 15s linear infinite;
-}
-#maing .img-r {
   width: 7rem;
 }
 #maing #logo:hover {
